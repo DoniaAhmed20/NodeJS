@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to left,
+    #607eb5f5,
+   #afccdf,
+  #d7dfe5);
+}
+
+
+/****************************************welcome page*************************************/
+div{
+    background-color: white;
+    padding: 5% 5%;
+    border: none;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+    margin-top: -25px;
+    color: #607eb5f5;
+}
+div span{
+    color: #607eb5f5;
+}
+
+/****************************************index page***********************************/
+form {
+    padding-top: -80px;
+    display: flex;
+    width: 700px;
+    align-items: center;
+    box-shadow: rgba(149, 157, 165, 1.5) 0px 8px 24px;
+    flex-direction: column;
+    background: linear-gradient(to left,
+    #d7dfe5,#afccdf,#607eb5f5, 0.1);
+
+}
+form h1{
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 50px;
+}
+
+form input {
+	padding:15px;
+    width: 400px;
+	display:inline-block;
+    margin: 10px;
+    background-color:#afccdf;;
+    color: white;
+    border: 1px solid white;
+    color: black;
+}
+.submit{
+    background-color: #607eb5f5;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 18px;
+}
+/* #afccdf; */
+
